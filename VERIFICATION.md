@@ -31,8 +31,13 @@
 ## 남은 외부 단계
 
 1. Spotify 계정 연결: 본인 계정의 동의 화면까지 진입했으나 accounts.spotify.com 승인 단계에서 일반 오류가 발생했습니다. callback 도착 이전의 실패이며 정확한 원인은 확인되지 않았습니다. 새 연결 화면을 열어 두었습니다. 현재 미리보기의 음악 카드는 연결 대기 표시이고 실제 청취 곡이 아닙니다.
-2. GitHub 게시: 사용자 요청 전 커밋·푸시를 하지 않는 지침에 따라 새 원격 저장소 생성, README 게시, 고정 저장소 변경은 수행하지 않았습니다.
-3. GitHub Actions 실제 실행 및 게시 화면 확인: 원격 저장소를 게시한 뒤 수행해야 합니다. 로컬 dry run과 문법 검사를 실제 GitHub Actions 실행 성공으로 간주하지 않았습니다.
+
+## 실제 게시 확인
+
+- 공개 프로필 저장소와 README 게시 완료: https://github.com/rkdals0203/rkdals0203
+- GitHub Actions가 활동 카드와 잔디 뱀을 output 브랜치에 게시하는 실행 성공.
+- 게시된 GitHub 프로필에서 README, 활동 카드, 연결 대기 음악 카드, 잔디 뱀 렌더링 확인.
+- 고정 저장소 순서 확인: im-one, air-mockup, blog, rn-template.
 
 Spotify 연결 전에는 npm run ready가 실패하도록 해 미완성 카드를 실수로 게시하지 않게 했습니다.
 
