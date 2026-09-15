@@ -36,8 +36,9 @@ jobs:
         with:
           node-version: '24'
       - run: npm test
-      # Allows bootstrapping the asset branch before publishing the root README.
-      - run: if [ -f README.md ]; then npm run check:readme; fi
+      # GitHub creates a placeholder README when the profile repository is initialized.
+      # Validate only after our generated README has been published.
+      - run: if grep -q 'Generated from profile.config.json' README.md 2>/dev/null; then npm run check:readme; fi
 
   generate:
     needs: verify
