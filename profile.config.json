@@ -1,0 +1,45 @@
+{
+  "username": "rkdals0203",
+  "name": "Kang-min Kim",
+  "greeting": "Hi there, I'm Kang-min Kim 👋",
+  "intro": [
+    "A developer in Seoul who likes solving everyday problems.",
+    "I build web, mobile, and AI tools, and learn by shipping."
+  ],
+  "typing": {
+    "lines": ["Building useful things.", "Web, mobile, and AI.", "Learning by shipping."],
+    "width": 420,
+    "fontSize": 20,
+    "pause": 1500,
+    "lightColor": "0969DA",
+    "darkColor": "70A5FD"
+  },
+  "links": {
+    "blog": "https://blog-two-rouge-57.vercel.app",
+    "linkedin": "https://www.linkedin.com/in/rkdals0203"
+  },
+  "skills": [
+    { "label": "Languages", "badges": [
+      { "name": "TypeScript", "color": "3178C6", "logo": "typescript" },
+      { "name": "Python", "color": "3776AB", "logo": "python" }
+    ] },
+    { "label": "Frameworks", "badges": [
+      { "name": "React", "color": "20232A", "logo": "react", "logoColor": "61DAFB" },
+      { "name": "Next.js", "color": "111111", "logo": "nextdotjs" },
+      { "name": "React Native", "color": "087EA4", "logo": "react" },
+      { "name": "FastAPI", "color": "009688", "logo": "fastapi" }
+    ] },
+    { "label": "Tools", "badges": [
+      { "name": "Git", "color": "F05032", "logo": "git" },
+      { "name": "Vercel", "color": "111111", "logo": "vercel" }
+    ] }
+  ],
+  "aiTools": [
+    { "name": "Claude", "color": "D97757", "logo": "claude" },
+    { "name": "Codex", "color": "0F172A" }
+  ],
+  "signature": "Powered by curiosity, Claude, and Codex.",
+  "spotify": { "uid": null, "theme": "default", "backgroundColor": "161b22", "borderRadius": 10 },
+  "snake": { "color": "A855F7" },
+  "pinnedRepositories": ["im-one", "air-mockup", "blog", "rn-template"]
+}

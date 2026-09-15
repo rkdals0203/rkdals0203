@@ -1,0 +1,17 @@
+{
+  "name": "rkdals0203-profile",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "readme": "node scripts/render-readme.mjs",
+    "check:readme": "node scripts/render-readme.mjs --check",
+    "activity": "node scripts/generate-activity.mjs",
+    "validate": "node scripts/validate-assets.mjs",
+    "test": "node --test",
+    "check": "npm test && npm run check:readme",
+    "spotify": "node scripts/connect-spotify.mjs",
+    "ready": "node scripts/check-ready.mjs"
+  }
+}
