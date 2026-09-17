@@ -6,7 +6,7 @@ import { loadConfig, root, escapeXml as esc, spotifyPendingSvg, cardLayout } fro
 function badge(name, color, { logo, logoColor = 'white', style = 'flat-square' } = {}) {
   const url = new URL('https://img.shields.io/static/v1');
   for (const [key, value] of Object.entries({ label: '', message: name, color, style, logo, logoColor })) if (value !== undefined) url.searchParams.set(key, value);
-  return '<img src="' + esc(url.href) + '" alt="' + esc(name) + '" height="' + (style === 'for-the-badge' ? 28 : 20) + '">';
+  return '<img src="' + esc(url.href) + '" alt="' + esc(name) + '" height="20">';
 }
 
 function typingUrl(config, theme) {
@@ -39,7 +39,7 @@ export function renderReadme(config) {
     '<p>' + config.intro.map(esc).join('<br>\n') + '</p>',
     '## 🛠️ Skills',
     ...config.skills.map(group => '<p><strong>' + esc(group.label) + '</strong></p>\n<p>\n  ' + group.badges.map(item => badge(item.name, item.color, item)).join('\n  ') + '\n</p>'),
-    '<p>\n  ' + config.aiTools.map(item => badge(item.name, item.color, { ...item, style: 'for-the-badge' })).join('\n  ') + '\n</p>',
+    '<p><strong>AI Tools</strong></p>\n<p>\n  ' + config.aiTools.map(item => badge(item.name, item.color, item)).join('\n  ') + '\n</p>',
     '<p><em>' + esc(config.signature) + '</em></p>',
     '---',
     '<p align="center">\n  <a href="' + profile + '#contributions">\n' + picture(assetBase + 'activity-light.svg', assetBase + 'activity-dark.svg', 'Activity in the last year: contributions, active days, and longest streak. Includes anonymized private contributions.', cardLayout.width, 'middle') + '\n  </a>\n  &nbsp;&nbsp;\n  <a href="' + esc(spotify?.profile || 'https://open.spotify.com') + '"><img src="' + esc(spotify?.card || 'assets/spotify-pending.svg') + '" alt="' + (spotify ? 'Currently playing or recently played on Spotify' : 'Spotify card — account connection pending') + '" width="' + cardLayout.width + '" align="middle"></a>\n</p>',

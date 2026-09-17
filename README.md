@@ -29,25 +29,52 @@ I build web, mobile, and AI tools, and learn by shipping.</p>
 <p>
   <img src="https://img.shields.io/static/v1?label=&amp;message=TypeScript&amp;color=3178C6&amp;style=flat-square&amp;logo=typescript&amp;logoColor=white" alt="TypeScript" height="20">
   <img src="https://img.shields.io/static/v1?label=&amp;message=Python&amp;color=3776AB&amp;style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python" height="20">
+  <img src="https://img.shields.io/static/v1?label=&amp;message=Dart&amp;color=0175C2&amp;style=flat-square&amp;logo=dart&amp;logoColor=white" alt="Dart" height="20">
+  <img src="https://img.shields.io/static/v1?label=&amp;message=Swift&amp;color=F05138&amp;style=flat-square&amp;logo=swift&amp;logoColor=white" alt="Swift" height="20">
 </p>
 
-<p><strong>Frameworks</strong></p>
+<p><strong>Web &amp; Mobile</strong></p>
 <p>
   <img src="https://img.shields.io/static/v1?label=&amp;message=React&amp;color=20232A&amp;style=flat-square&amp;logo=react&amp;logoColor=61DAFB" alt="React" height="20">
   <img src="https://img.shields.io/static/v1?label=&amp;message=Next.js&amp;color=111111&amp;style=flat-square&amp;logo=nextdotjs&amp;logoColor=white" alt="Next.js" height="20">
   <img src="https://img.shields.io/static/v1?label=&amp;message=React+Native&amp;color=087EA4&amp;style=flat-square&amp;logo=react&amp;logoColor=white" alt="React Native" height="20">
+  <img src="https://img.shields.io/static/v1?label=&amp;message=Flutter&amp;color=02569B&amp;style=flat-square&amp;logo=flutter&amp;logoColor=white" alt="Flutter" height="20">
+  <img src="https://img.shields.io/static/v1?label=&amp;message=SwiftUI&amp;color=0D96F6&amp;style=flat-square&amp;logo=swift&amp;logoColor=white" alt="SwiftUI" height="20">
+  <img src="https://img.shields.io/static/v1?label=&amp;message=Tailwind+CSS&amp;color=06B6D4&amp;style=flat-square&amp;logo=tailwindcss&amp;logoColor=white" alt="Tailwind CSS" height="20">
+  <img src="https://img.shields.io/static/v1?label=&amp;message=Three.js&amp;color=111111&amp;style=flat-square&amp;logo=threedotjs&amp;logoColor=white" alt="Three.js" height="20">
+</p>
+
+<p><strong>Backend, Data &amp; AI</strong></p>
+<p>
   <img src="https://img.shields.io/static/v1?label=&amp;message=FastAPI&amp;color=009688&amp;style=flat-square&amp;logo=fastapi&amp;logoColor=white" alt="FastAPI" height="20">
+  <img src="https://img.shields.io/static/v1?label=&amp;message=PostgreSQL&amp;color=4169E1&amp;style=flat-square&amp;logo=postgresql&amp;logoColor=white" alt="PostgreSQL" height="20">
+  <img src="https://img.shields.io/static/v1?label=&amp;message=Supabase&amp;color=3FCF8E&amp;style=flat-square&amp;logo=supabase&amp;logoColor=white" alt="Supabase" height="20">
+  <img src="https://img.shields.io/static/v1?label=&amp;message=SQLite&amp;color=003B57&amp;style=flat-square&amp;logo=sqlite&amp;logoColor=white" alt="SQLite" height="20">
+  <img src="https://img.shields.io/static/v1?label=&amp;message=LangGraph&amp;color=1C3C3C&amp;style=flat-square&amp;logo=langchain&amp;logoColor=white" alt="LangGraph" height="20">
+  <img src="https://img.shields.io/static/v1?label=&amp;message=Vercel+AI+SDK&amp;color=111111&amp;style=flat-square&amp;logo=vercel&amp;logoColor=white" alt="Vercel AI SDK" height="20">
 </p>
 
-<p><strong>Tools</strong></p>
+<p><strong>Cloud &amp; Observability</strong></p>
 <p>
-  <img src="https://img.shields.io/static/v1?label=&amp;message=Git&amp;color=F05032&amp;style=flat-square&amp;logo=git&amp;logoColor=white" alt="Git" height="20">
   <img src="https://img.shields.io/static/v1?label=&amp;message=Vercel&amp;color=111111&amp;style=flat-square&amp;logo=vercel&amp;logoColor=white" alt="Vercel" height="20">
+  <img src="https://img.shields.io/static/v1?label=&amp;message=Cloudflare+Workers&amp;color=F38020&amp;style=flat-square&amp;logo=cloudflareworkers&amp;logoColor=white" alt="Cloudflare Workers" height="20">
+  <img src="https://img.shields.io/static/v1?label=&amp;message=Cloudflare+R2&amp;color=F38020&amp;style=flat-square&amp;logo=cloudflare&amp;logoColor=white" alt="Cloudflare R2" height="20">
+  <img src="https://img.shields.io/static/v1?label=&amp;message=Sentry&amp;color=362D59&amp;style=flat-square&amp;logo=sentry&amp;logoColor=white" alt="Sentry" height="20">
 </p>
 
+<p><strong>Testing &amp; Tooling</strong></p>
 <p>
-  <img src="https://img.shields.io/static/v1?label=&amp;message=Claude&amp;color=D97757&amp;style=for-the-badge&amp;logo=claude&amp;logoColor=white" alt="Claude" height="28">
-  <img src="https://img.shields.io/static/v1?label=&amp;message=Codex&amp;color=0F172A&amp;style=for-the-badge&amp;logoColor=white" alt="Codex" height="28">
+  <img src="https://img.shields.io/static/v1?label=&amp;message=Vitest&amp;color=6E9F18&amp;style=flat-square&amp;logo=vitest&amp;logoColor=white" alt="Vitest" height="20">
+  <img src="https://img.shields.io/static/v1?label=&amp;message=Playwright&amp;color=2EAD33&amp;style=flat-square&amp;logo=playwright&amp;logoColor=white" alt="Playwright" height="20">
+  <img src="https://img.shields.io/static/v1?label=&amp;message=Pytest&amp;color=0A9EDC&amp;style=flat-square&amp;logo=pytest&amp;logoColor=white" alt="Pytest" height="20">
+  <img src="https://img.shields.io/static/v1?label=&amp;message=Vite&amp;color=646CFF&amp;style=flat-square&amp;logo=vite&amp;logoColor=white" alt="Vite" height="20">
+  <img src="https://img.shields.io/static/v1?label=&amp;message=Git&amp;color=F05032&amp;style=flat-square&amp;logo=git&amp;logoColor=white" alt="Git" height="20">
+</p>
+
+<p><strong>AI Tools</strong></p>
+<p>
+  <img src="https://img.shields.io/static/v1?label=&amp;message=Claude&amp;color=D97757&amp;style=flat-square&amp;logo=claude&amp;logoColor=white" alt="Claude" height="20">
+  <img src="https://img.shields.io/static/v1?label=&amp;message=Codex&amp;color=0F172A&amp;style=flat-square&amp;logoColor=white" alt="Codex" height="20">
 </p>
 
 <p><em>Powered by curiosity, Claude, and Codex.</em></p>

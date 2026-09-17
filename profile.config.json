@@ -21,17 +21,39 @@
   "skills": [
     { "label": "Languages", "badges": [
       { "name": "TypeScript", "color": "3178C6", "logo": "typescript" },
-      { "name": "Python", "color": "3776AB", "logo": "python" }
+      { "name": "Python", "color": "3776AB", "logo": "python" },
+      { "name": "Dart", "color": "0175C2", "logo": "dart" },
+      { "name": "Swift", "color": "F05138", "logo": "swift" }
     ] },
-    { "label": "Frameworks", "badges": [
+    { "label": "Web & Mobile", "badges": [
       { "name": "React", "color": "20232A", "logo": "react", "logoColor": "61DAFB" },
       { "name": "Next.js", "color": "111111", "logo": "nextdotjs" },
       { "name": "React Native", "color": "087EA4", "logo": "react" },
-      { "name": "FastAPI", "color": "009688", "logo": "fastapi" }
+      { "name": "Flutter", "color": "02569B", "logo": "flutter" },
+      { "name": "SwiftUI", "color": "0D96F6", "logo": "swift" },
+      { "name": "Tailwind CSS", "color": "06B6D4", "logo": "tailwindcss" },
+      { "name": "Three.js", "color": "111111", "logo": "threedotjs" }
     ] },
-    { "label": "Tools", "badges": [
-      { "name": "Git", "color": "F05032", "logo": "git" },
-      { "name": "Vercel", "color": "111111", "logo": "vercel" }
+    { "label": "Backend, Data & AI", "badges": [
+      { "name": "FastAPI", "color": "009688", "logo": "fastapi" },
+      { "name": "PostgreSQL", "color": "4169E1", "logo": "postgresql" },
+      { "name": "Supabase", "color": "3FCF8E", "logo": "supabase", "logoColor": "white" },
+      { "name": "SQLite", "color": "003B57", "logo": "sqlite" },
+      { "name": "LangGraph", "color": "1C3C3C", "logo": "langchain" },
+      { "name": "Vercel AI SDK", "color": "111111", "logo": "vercel" }
+    ] },
+    { "label": "Cloud & Observability", "badges": [
+      { "name": "Vercel", "color": "111111", "logo": "vercel" },
+      { "name": "Cloudflare Workers", "color": "F38020", "logo": "cloudflareworkers" },
+      { "name": "Cloudflare R2", "color": "F38020", "logo": "cloudflare" },
+      { "name": "Sentry", "color": "362D59", "logo": "sentry" }
+    ] },
+    { "label": "Testing & Tooling", "badges": [
+      { "name": "Vitest", "color": "6E9F18", "logo": "vitest" },
+      { "name": "Playwright", "color": "2EAD33", "logo": "playwright" },
+      { "name": "Pytest", "color": "0A9EDC", "logo": "pytest" },
+      { "name": "Vite", "color": "646CFF", "logo": "vite" },
+      { "name": "Git", "color": "F05032", "logo": "git" }
     ] }
   ],
   "aiTools": [
