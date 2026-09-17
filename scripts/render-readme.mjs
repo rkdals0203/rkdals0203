@@ -36,7 +36,7 @@ export function renderReadme(config) {
     '<p align="center">\n' + picture(typingUrl(config, 'light'), typingUrl(config, 'dark'), config.typing.lines.join(' '), config.typing.width) + '\n</p>',
     '<p align="center">\n  <a href="' + profile + '?tab=followers"><img src="https://img.shields.io/github/followers/' + config.username + '?style=for-the-badge&amp;logo=github&amp;label=Followers&amp;color=0891B2&amp;labelColor=1C1917" alt="GitHub followers" height="28"></a>\n  <img src="https://komarev.com/ghpvc/?username=' + config.username + '&amp;style=for-the-badge&amp;color=8b5cf6&amp;label=PROFILE+VIEWS" alt="Profile views" height="28">\n</p>',
     '<p align="center">\n  <a href="' + esc(config.links.blog) + '">' + badge('Blog', 'E11D74', { logo: 'readme' }) + '</a>\n  <a href="' + esc(config.links.linkedin) + '">' + badge('LinkedIn', '0A66C2') + '</a>\n</p>',
-    '<p>' + config.intro.map(esc).join('<br>\n') + '</p>',
+    '<p align="center">' + config.intro.map(esc).join(' &nbsp;·&nbsp; ') + '</p>',
     '## 🛠️ Skills',
     ...config.skills.map(group => '<p><strong>' + esc(group.label) + '</strong></p>\n<p>\n  ' + group.badges.map(item => badge(item.name, item.color, item)).join('\n  ') + '\n</p>'),
     '<p><strong>AI Tools</strong></p>\n<p>\n  ' + config.aiTools.map(item => badge(item.name, item.color, item)).join('\n  ') + '\n</p>',

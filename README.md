@@ -20,8 +20,7 @@
   <a href="https://www.linkedin.com/in/rkdals0203"><img src="https://img.shields.io/static/v1?label=&amp;message=LinkedIn&amp;color=0A66C2&amp;style=flat-square&amp;logoColor=white" alt="LinkedIn" height="20"></a>
 </p>
 
-<p>A developer in Seoul who likes solving everyday problems.<br>
-I build web, mobile, and AI tools, and learn by shipping.</p>
+<p align="center">📍 Based in Seoul &nbsp;·&nbsp; 🛠️ From idea to working software &nbsp;·&nbsp; 🌱 Always learning</p>
 
 ## 🛠️ Skills
 
