@@ -74,6 +74,8 @@
 <p>
   <img src="https://img.shields.io/static/v1?label=&amp;message=Claude&amp;color=D97757&amp;style=flat-square&amp;logo=claude&amp;logoColor=white" alt="Claude" height="20">
   <img src="https://img.shields.io/static/v1?label=&amp;message=Codex&amp;color=0F172A&amp;style=flat-square&amp;logoColor=white" alt="Codex" height="20">
+  <img src="https://img.shields.io/static/v1?label=&amp;message=Orca&amp;color=2563EB&amp;style=flat-square&amp;logoColor=white" alt="Orca" height="20">
+  <img src="https://img.shields.io/static/v1?label=&amp;message=Cursor&amp;color=111111&amp;style=flat-square&amp;logo=cursor&amp;logoColor=white" alt="Cursor" height="20">
 </p>
 
 <p><em>Powered by curiosity, Claude, and Codex.</em></p>

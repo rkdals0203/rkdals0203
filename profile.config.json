@@ -59,7 +59,9 @@
   ],
   "aiTools": [
     { "name": "Claude", "color": "D97757", "logo": "claude" },
-    { "name": "Codex", "color": "0F172A" }
+    { "name": "Codex", "color": "0F172A" },
+    { "name": "Orca", "color": "2563EB" },
+    { "name": "Cursor", "color": "111111", "logo": "cursor" }
   ],
   "signature": "Powered by curiosity, Claude, and Codex.",
   "spotify": { "uid": null, "theme": "default", "backgroundColor": "161b22", "borderRadius": 10 },
